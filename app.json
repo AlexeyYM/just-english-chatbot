@@ -1,0 +1,10 @@
+{
+  "buildpacks": [
+    {
+      "url": "https://github.com/AlexeyYM/just-english-chatbot"
+    },
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
