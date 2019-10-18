@@ -9,11 +9,11 @@ import com.vk.api.sdk.httpclient.HttpTransportClient;
 import com.vk.api.sdk.objects.GroupAuthResponse;
 
 public class App {
-  private static final int CLIENT_ID = 123;
-  private static final String CLIENT_SECRET = "";
+  private static final int CLIENT_ID = 7174969;
+  private static final String CLIENT_SECRET = "ezXr4XZXdti0s6CqzM8S";
   private static final String REDIRECT_URI = "";
   private static final String CODE = "";
-  private static final int GROUP_ID = 456;
+  private static final int GROUP_ID = 184113677;
 
 
   public static void main(String[] args) {
@@ -30,6 +30,6 @@ public class App {
       e.printStackTrace();
     }
 
-    GroupActor actor = new GroupActor(GROUP_ID, authResponse.getAccessTokens().get(groupId));
+    GroupActor actor = new GroupActor(GROUP_ID, authResponse.getAccessTokens().get(GROUP_ID));
   }
 }
