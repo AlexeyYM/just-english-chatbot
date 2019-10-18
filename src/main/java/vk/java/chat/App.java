@@ -11,7 +11,7 @@ import com.vk.api.sdk.objects.GroupAuthResponse;
 public class App {
   private static final int CLIENT_ID = 7174969;
   private static final String CLIENT_SECRET = "ezXr4XZXdti0s6CqzM8S";
-  private static final String REDIRECT_URI = "";
+  private static final String REDIRECT_URI = "https://just-english-chatbot.herokuapp.com";
   private static final String CODE = "";
   private static final int GROUP_ID = 184113677;
 
